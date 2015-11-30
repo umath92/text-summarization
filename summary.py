@@ -9,8 +9,6 @@ corpus={}
 with open('corpus.pkl', 'rb') as f:
 	corpus=pickle.load(f)
 
-
-
 d={}
 sentences=[]
 summaryResult=""
